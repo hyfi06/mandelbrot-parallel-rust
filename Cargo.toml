@@ -1,5 +1,7 @@
 [workspace]
 
 members = [
-    "mandelbrot_lib", "save_image",
+    "mandelbrot_lib",
+    "save_image",
+    "mandelbrot",
 ]

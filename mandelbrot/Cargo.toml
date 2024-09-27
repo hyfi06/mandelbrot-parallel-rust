@@ -1,0 +1,11 @@
+[package]
+name = "mandelbrot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mandelbrot_lib = { path = "../mandelbrot_lib" }
+save_image = { path = "../save_image" }
+
+[build]
+target = "x86_64-pc-windows-gnu" 

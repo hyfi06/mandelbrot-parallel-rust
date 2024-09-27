@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+rayon = "1.10.0"
+pyo3 = { version = "0.18", features = ["extension-module"] }
+
+[lib]
+name="mandelbrot_lib"
+crate-type = ["cdylib","rlib"]

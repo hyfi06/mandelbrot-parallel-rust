@@ -2,8 +2,8 @@ use std::ops::{Add, Mul, Sub};
 
 #[derive(PartialEq, Debug, Clone, Copy)]
 pub struct Complex<T> {
-    pub(crate) re: T,
-    pub(crate) im: T,
+    re: T,
+    im: T,
 }
 
 impl<T> Complex<T> {
